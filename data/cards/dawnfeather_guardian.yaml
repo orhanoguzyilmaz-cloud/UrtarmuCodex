@@ -1,0 +1,8 @@
+id: card-001
+name: Dawnfeather Guardian
+rarity: common
+type: creature
+description: "A vigilant sentry who keeps watch over the first light of Urtarmu."
+faction: Aurora Wing
+power: 2
+health: 3

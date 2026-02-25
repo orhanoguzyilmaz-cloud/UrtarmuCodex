@@ -1,0 +1,23 @@
+[project]
+name = "urtarmucodex"
+version = "0.1.0"
+description = "Validation utilities for Urtarmu Codex data files."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "Urtarmu Codex Maintainers" }
+]
+dependencies = []
+
+[project.scripts]
+urtarmucodex = "urtarmucodex.cli:main"
+
+[build-system]
+requires = ["setuptools>=65.5"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
